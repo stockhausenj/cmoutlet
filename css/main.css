@@ -1,0 +1,11 @@
+.hero.is-cmo {
+	background-image: url(../images/home.jpg);
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.navbar-item img {
+	max-height: 4.0rem;
+}
