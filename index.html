@@ -17,10 +17,11 @@
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body class="layout-default">
+		<span class="anchor" id="top"></span>
 		<section>
 			<nav class="navbar is-fixed-top">
 				<div class="navbar-brand">
-					<a class="navbar-item">
+					<a class="navbar-item" href="#top">
 						<img src="images/logo.png" width="150" height="75">
 					</a>
 					<div class="navbar-burger burger" data-target="navMenu">
@@ -71,10 +72,44 @@
 				</div>
 			</nav>
 		</section>
+		<div class="modal" id="modal-bis">
+			<div class="modal-background"></div>
+			<div class="modal-card">
+				<header class="modal-card-head">
+					<p class="modal-card-title">Contact Us</p>
+					<button class="delete" aria-label="close"></button>
+				</header>
+				<section class="modal-card-body">
+					<div class="columns">
+						<div class="column">
+							<div class="content">
+								<h1>Hours</h1>
+								<p>Mon-Thur: 7:00AM - 6:00PM</p>
+								<p>Fri: 7:00AM - 3:00PM</p>
+								<p>Sat: 10:00AM - 3:00PM</p>
+								<p>Sun: closed</p>
+							</div>
+						</div>
+						<div class="column">
+							<div class="content">
+								<h1>Phone</h1>
+								<p>(414) 774-9344</p>
+								<h1>Address</h1>
+								<p>1001 South 108th St</p>
+								<p>Milwaukee, WI 53214</p>
+							</div>
+						</div>
+					</div>
+					<!-- Content ... -->
+				</section>
+				<footer class="modal-card-foot">
+				</footer>
+			</div>
+		</div>
 		<section class="hero is-cmo is-large">
 			<div class="hero-body">
 				<div class="container has-text-centered">
-<a class="button is-large is-focused is-info">Contact Us!</a>
+					<a class="button is-large is-focused is-info modal-button" data-target="modal-bis">Contact Us!</a>
 				</div>
 			</div>
 		</section>
