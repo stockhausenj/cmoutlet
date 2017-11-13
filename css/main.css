@@ -14,11 +14,30 @@
 	background-size: cover;
 	position: relative;
 	font-size: 500%;
-	color: #0068B7;
+	color: #2E363F;
 }
-h1 span {
-	background-color: rgba(46, 54, 63, 0.7);
+.section.is-carpet-info {
+	background-color: #2E363F;
+	color: white;
+	font-size: 24px;
+	text-align: center;
 }
+.section.is-carpet-vendors {
+	background-color: #BCCCDB;
+}
+.section.is-carpet-vendors img {
+	width: 75%;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+.section.is-carpet-vendors div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
 .navbar-item img {
 	max-height: 4.0rem;
 }
