@@ -31,12 +31,23 @@
 	margin: auto;
 	display: block;
 }
-.section.is-carpet-vendors div {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
 
+.section.is-hardwood {
+  background-image: url(../images/Hardwood-Header.png);
+  height: 25%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-size: 500%;
+  color: white;
+}
+.section.is-hardwood-info {
+  background-color: #2E363F;
+  color: white;
+  font-size: 18px;
+	text-align: center;
+}
 
 .navbar-item img {
 	max-height: 4.0rem;
@@ -46,4 +57,7 @@
 	height: 4.0rem; /*same height as header*/
 	margin-top: -4.0rem; /*same height as header*/
 	visibility: hidden;
+}
+.vcenter {
+	margin: auto;
 }
