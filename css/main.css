@@ -6,6 +6,19 @@
 	background-size: cover;
 	position: relative;
 }
+.section.is-carpet {
+	background-image: url(../images/Close-upCarpetingLateral.png);
+	height: 25%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	font-size: 500%;
+	color: #0068B7;
+}
+h1 span {
+	background-color: rgba(46, 54, 63, 0.7);
+}
 .navbar-item img {
 	max-height: 4.0rem;
 }
