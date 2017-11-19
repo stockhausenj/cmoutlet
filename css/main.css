@@ -8,12 +8,11 @@
 }
 .section.is-carpet {
 	background-image: url(../images/Close-upCarpetingLateral.png);
-	height: 50%;
+	height: 40%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	font-size: 500%;
 	color: #2E363F;
 }
 .section.is-carpet-info {
@@ -37,12 +36,13 @@
 }
 .section.is-hardwood {
 	background-image: url(../images/Hardwood-Header.png);
-	height: 50%;
+	height: 40%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	font-size: 500%;
+}
+.section.is-hardwood h1 {
 	color: white;
 }
 .section.is-hardwood-info {
@@ -52,13 +52,15 @@
 }
 .section.is-laminate-vinyl {
   background-image: url(../images/Laminate-Vinyl-Header.png);
-  height: 50%;
+  height: 40%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  font-size: 500%;
   color: white;
+}
+.section.is-laminate-vinyl h1 {
+	color: white;
 }
 .section.is-laminate-vinyl-info {
   background-color: #2E363F;
@@ -95,7 +97,6 @@
 
 .section.is-installation {
   background-color: #BCCCDB;
-	font-size: 500%;
 	color: #2E363F;
 }
 .section.is-installation-info {
