@@ -116,3 +116,34 @@
 .vcenter {
 	margin: auto;
 }
+.section.is-affordable img {
+	width: 50%;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+.section.is-affordable {
+	background-color: #2E363F;
+	color: white;
+	font-size: 24px;
+}
+.section.is-quality img {
+	width: 50%;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+.section.is-quality {
+	background-color: #0068B7;
+	color: white;
+	font-size: 24px;
+}
+.section.is-contact img {
+	width: 25%;
+	height: auto;
+}
+.section.is-contact {
+	background-color: #2E363F;
+	color: white;
+	font-size: 24px;
+}
